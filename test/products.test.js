@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import Product from './src/dao/product.mongo.dao.js';
+import Product from '../src/dao/product.mongo.dao.js';
 import Assert from 'assert';
 // import chai from 'chai'
 import config from '../src/config/config.js'

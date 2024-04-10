@@ -1,5 +1,5 @@
 import { Router } from "express"
-import ProductManager from './dao/fsManagers/ProductManager.js'
+import ProductManager from '../dao/fsManagers/ProductManager.js'
 import ProductModel from '../models/product.model.js';
 import cartModel from "../models/cart.model.js";
 import { isAuthenticated, isAdminOrPremium, hasAdminCredentials } from "../public/js/authMiddleware.js";

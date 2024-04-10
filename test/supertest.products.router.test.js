@@ -1,6 +1,6 @@
 import chai from 'chai'
 import supertest from 'supertest'
-import ProductService from './src/dao/product.mongo.dao.js'
+import ProductService from '../src/dao/product.mongo.dao.js'
 
 const expect = chai.expect
 const requester = supertest('http://localhost:8080')

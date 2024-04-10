@@ -1,12 +1,12 @@
 {
-  "name": "proyectofinalbackend",
+  "name": "proyectofinaldebackend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon ."
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Lucas Armaretti",
@@ -27,9 +27,11 @@
     "passport-github2": "^0.1.12",
     "passport-local": "^1.0.0",
     "socket.io": "^4.7.2",
+    "stripe": "^14.2.0",
     "supertest": "^6.3.3",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0",
+    "vercel": "^32.5.0",
     "winston": "^3.10.0"
   },
   "devDependencies": {
